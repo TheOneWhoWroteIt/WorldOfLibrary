@@ -1,0 +1,233 @@
+body, html{
+
+    margin: 0;
+    padding: 0;
+}
+
+*, *:after, *:before{
+    box-sizing: border-box;
+}
+
+/*block autirization*/
+.login_one_container{
+    background-image: url("/resources/img/app_img/login_back.jpg");
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+
+}
+
+.text_log{
+    font-family: 'Marck Script', cursive;
+    font-size: 30px;
+    color: #A9A9A9;
+    display: block;
+    /*position: absolute;*/
+    margin: 150px 0 0;
+    padding: 0;
+
+}
+
+.text_log p{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-family: 'Marck Script', cursive;
+    font-size: 30px;
+    color: #A9A9A9;
+}
+
+.text_log h3{
+    display: inline-block;
+    /*position: absolute;*/
+    margin:10px 0;
+    padding: 0;
+   /* font-family: 'Marck Script', cursive;*/
+    font-size: 20px;
+   /* color: #A9A9A9;*/
+}
+
+.login_two_container{
+     /*background-color: red;*/
+     display: block;
+     position: absolute;
+     margin: 80px 0 0;
+     font-family: 'Lobster', cursive;
+     font-size: 20px;
+     text-align: center;
+
+ }
+
+
+
+.login_two_container p{
+    margin: 0;
+    padding: 0;
+}
+
+.login_enter{
+    display:block;
+
+    margin: 60px 0 0 ;
+    padding: 0;
+
+}
+
+.password_enter{
+    display:block;
+
+    margin:20px 0 20px 0;
+    padding: 0;
+
+}
+
+input{
+   /* font-family: 'Lobster', cursive;*/
+    box-shadow: /*3px 3px 6px grey*/ 4px 4px 7px;
+    font-size: 20px;
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    /*border: 2px solid black;*/
+    border: 2px solid black;
+    border-top-color: grey;
+    border-left-color: gray;
+    box-sizing: border-box;
+    border-radius:30px;
+}
+
+input:focus{
+    outline: none;
+}
+
+/*block registration*/
+
+.registration_two_container{
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    /*position: absolute;*/
+    margin: 20px 0 0;
+    padding: 0;
+
+}
+
+.info_enter{
+    display: block;
+    font-family: 'Lobster', cursive;
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 0 0;
+    padding: 0;
+
+}
+
+.info_enter p{
+    margin: 0;
+    padding: 0;
+}
+
+
+.info_enter input{
+    box-shadow: /*3px 3px 6px grey*/ 4px 4px 7px;
+    font-family: 'Lobster', cursive;
+    font-size: 18px;
+    width: 90%;
+    padding: 10px 25px;
+    margin:  0;
+    display: inline-block;
+    /*border: 2px solid black;*/
+    border-top: 2px solid grey;
+    border-left: 2px solid gray;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    box-sizing: border-box;
+    border-radius:25px;
+}
+
+/*.info_enter input:hover{
+    width: 90%;
+}*/
+
+
+.check_agree{
+    display: inline-flex;
+    /*position: absolute;*/
+    margin: 40px 0 0;
+    padding: 0;
+    text-align: left;
+   /* bottom: 5%;
+    left: 3%;
+    width: 60%;
+    height: 10%;*/
+
+}
+
+.check_agree label {
+    display: block;
+    padding-left: 30px;
+    text-indent: -15px;
+}
+
+.check_agree input {
+    box-shadow: /*3px 3px 6px grey*/ 4px 4px 7px;
+    width: 18px;
+    height: 18px;
+    padding: 0;
+    margin:0;
+    vertical-align: bottom;
+    position: relative;
+    top: 20%;
+    *overflow: hidden;
+}
+
+.check_agree a{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+    font-size: 22px;
+    color: black;
+
+}
+
+.check_agree a:hover{
+    color: #808080;
+}
+
+
+
+.reg_Button{
+
+    margin: 50px 0 0 12px;
+    padding: 0;
+
+}
+
+/*block rules*/
+
+.rules_two_container{
+    /*background: red;*/
+    display: block;
+   margin: 50px 0 0;
+}
+
+.rules_two_container h1, p{
+    font-family: 'Lobster', cursive;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.rules_two_container h1{
+    font-size: 30px;
+    text-align: center;
+}
+

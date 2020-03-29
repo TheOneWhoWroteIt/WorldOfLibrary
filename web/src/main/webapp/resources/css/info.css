@@ -1,0 +1,69 @@
+body, html{
+
+    margin: 0;
+    padding: 0;
+}
+*, *:after, *:before{
+    box-sizing: border-box;
+}
+
+/*.row {
+    border: 3px black solid;
+    !*padding-top: 30px;*!
+}*/
+
+
+.about_one_container{
+    background-image: url("/resources/img/app_img/book_log.jpg");
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    /*display: block;*/
+    /*position: absolute;*/
+    margin: 0;
+    padding: 0;
+
+}
+
+.container_info_text{
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /*display: block;*/
+    /*position: absolute;*/
+    margin: 0;
+    padding: 0;
+    /*padding-top: 5%;*/
+}
+
+.container_button{
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    /*display: block;*/
+    /*position: absolute;*/
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+.text_container{
+    width: 100%;
+    height: 100%;
+    /*display: block;
+    position: absolute;*/
+    margin: 0;
+    padding: 40px 0 0;
+    /*right: 0;*/
+    /*top: 5%;*/
+}
+
+.text_container p{
+    font-family: 'Neucha', cursive;
+    font-size: 25px;
+
+}
+
+

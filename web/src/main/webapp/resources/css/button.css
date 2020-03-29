@@ -1,0 +1,181 @@
+*, *:after, *:before{
+    box-sizing: border-box;
+}
+
+
+.myButton, .inButton, .regButton, .searchButton, .outButton, .orderButton, .addButton {
+    -moz-box-shadow:inset 0px 1px 15px 3px #ffffff;
+    -webkit-box-shadow:inset 0px 1px 15px 3px #ffffff;
+    box-shadow: /*3px 3px 6px grey*/ 4px 4px 7px;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6));
+    background:-moz-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+    background:-webkit-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+    background:-o-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+    background:-ms-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+    background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0);
+    background-color:#ffffff;
+    -moz-border-radius:20px;
+    -webkit-border-radius:20px;
+    border-radius:25px;
+    /*border:2px solid #101112;*/
+    border-bottom: 2px solid #101112 ;
+    border-right: 2px solid #101112;
+    border-top: 2px solid grey;
+    border-left: 2px solid grey;
+    display:inline-block;
+    cursor:pointer;
+    color:#0a010a;
+    font-family: 'Lobster', cursive;
+    font-size:25px;
+    font-weight:bold;
+    padding:6px 16px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover, .inButton:hover, .regButton:hover, .searchButton:hover,
+.outButton:hover, .orderButton:hover, .addButton:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f6f6f6), color-stop(1, #ffffff));
+    background:-moz-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+    background:-webkit-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+    background:-o-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+    background:-ms-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+    background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#ffffff',GradientType=0);
+    background-color:#f6f6f6;
+}
+.myButton:active, .inButton:active, .regButton:active, .searchButton:active,
+.outButton:active, .orderButton:active, .addButton:active {
+    position:relative;
+    top:1px;
+}
+
+.myButton:focus, .inButton:focus, .regButton:focus, .searchButton:focus,
+.outButton:focus, .orderButton:focus, .addButton:focus {
+    outline: none;
+}
+
+.back_button{
+    display: block;
+    /*position: absolute;*/
+    margin-left: 80px;
+    padding: 0;
+
+    /*bottom: 3%;
+    right: 5%;*/
+}
+
+.back_button form{
+    outline: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*алфавит*/
+
+
+.alfavitButton {
+
+    box-shadow: none;
+
+    background-color:  transparent;
+
+    border: none;
+    display:inline-block;
+    cursor:pointer;
+    color:#0a010a;
+    font-family: 'Lobster', cursive;
+    font-size:32px;
+    font-weight:normal;
+    /* padding:5px 16px;*/
+    padding: 0 2px;
+    margin: 0 3px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+}
+.alfavitButton:hover {
+
+    color: #808080;
+    font-size: 38px;
+}
+.alfavitButton:active {
+    position:relative;
+    top:1px;
+}
+
+/*кнопки для жанров, авторов, названий книг*/
+
+.booknameButton, .authornameButton, .genrenameButton, .createorderButton,
+.editprofilButton, .readernameButton {
+
+     box-shadow: none;
+
+     background-color: transparent;
+
+     border:/*2px solid white;*/ none;
+     display:inline-block;
+     cursor:pointer;
+     color:#0a010a;
+     font-family: 'Lobster', cursive;
+     font-size:15px;
+     font-weight:normal;
+
+     text-decoration:none;
+     /*text-shadow:0px 1px 0px #ffffff;*/
+
+     white-space: nowrap; /* Запрещаем перенос строк */
+     overflow: hidden; /* Обрезаем все, что не помещается в область */
+
+     text-overflow: ellipsis; /* Добавляем многоточие */
+
+
+ }
+.booknameButton:hover, .authornameButton:hover, .genrenameButton:hover, .createorderButton:hover,
+.editprofilButton:hover, .readernameButton:hover {
+
+    color: #808080;
+}
+.booknameButton:active, .authornameButton:active, .genrenameButton:active, .createorderButton:active,
+.editprofilButton:active, .readernameButton:active {
+    position:relative;
+    top:1px;
+}
+
+.booknameButton:focus, .authornameButton:focus, .genrenameButton:focus, .createorderButton:focus,
+.editprofilButton:focus, .readernameButton:focus {
+
+    outline: none;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+
+::-webkit-scrollbar-track{
+    background: transparent;
+
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(to bottom, dimgray, lightgray);
+    border-radius: 4px;
+    /*box-shadow: 4px 4px 4px #0a010a;*/
+
+}
+
+
+/*pagination*/
+
+.page-item.active .page-link{
+    background-color: #6c757d;
+    border: 2px solid #6c757d;
+    color: white;
+    box-shadow: 4px 4px 4px #0a010a;
+}
+
+.page-item{
+     border-radius: 10px;
+}
+
+

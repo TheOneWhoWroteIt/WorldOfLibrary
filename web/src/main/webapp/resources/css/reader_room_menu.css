@@ -1,0 +1,475 @@
+html{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+*, *:after, *:before{
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1920px;
+   /* margin: 0 auto;
+    padding: 0 15px;*/
+}
+
+form{
+    margin: 0;
+    padding: 0;
+}
+
+/*.col-lg, .col-lg-3, .col-lg-6, .col-lg-4, .col-lg-2 {
+    border: 3px black solid;
+
+}*/
+
+/*блок фона*/
+
+.reader_one_container{
+    overflow: auto;
+    background-size: contain;
+    background: url("/resources/img/app_img/frame.png") no-repeat fixed center;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+
+}
+
+/*блок поиска и выхода из кабинета*/
+
+.search_container{
+
+    display: inline-flex;
+    position: absolute;
+    margin: 10px 0 0 500px;
+    padding: 0;
+
+
+}
+
+
+input{
+    box-shadow: /*3px 3px 6px grey*/ 4px 4px 7px;
+    font-family: 'Lobster', cursive;
+    font-size: 16px;
+    padding: 7px 10px;
+    margin: 0 5px 0 20px;
+    /*border: 3px solid black;*/
+    border-top: 2px solid grey;
+    border-left: 2px solid gray;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    box-sizing: border-box;
+    border-radius:25px;
+}
+
+.searchButton{
+    font-size: 18px;
+}
+
+.outButton{
+    font-size: 22px;
+}
+.out_button{
+    margin: 10px 0 0 100px;
+    padding: 0;
+}
+
+.search_input, span{
+    font-family: 'Lobster', cursive;
+    font-size:18px;
+    margin: 0 5px 0 0;
+    padding: 0;
+}
+
+
+/*Блок поска по алфавиту*/
+
+.search_alfavit{
+
+    display: inline-block;
+    position: absolute;
+    margin: 5px 0 0 0;
+    padding: 0;
+    /*font-family: 'Lobster', cursive;
+    font-size: 30px;*/
+
+}
+
+.alfavit{
+    display: inline-flex;
+    letter-spacing: 6px;
+}
+
+
+/*блок информации о пользователе*/
+
+.welcome_text{
+
+    display: block;
+    position: absolute;
+    margin: 30px 0 0 10px;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+
+}
+
+.hello_text{
+    display: block;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    font-size: 22px;
+}
+
+.edit_profil{
+    margin: 190px 0 0 0;
+    padding: 0;
+}
+
+.create_order{
+    margin: 0;
+    padding: 0;
+}
+
+.createorderButton, .editprofilButton{
+    font-size: 24px;
+}
+
+/*блок поиска по жанрам*/
+
+h3{
+    font-family: 'Lobster', cursive;
+    font-size:20px;
+    font-weight: bold;
+    display: block;
+    position: absolute;
+    margin: 130px 0 0 160px;
+    padding: 0;
+   /* top: 2%;
+    left: 10%;*/
+    /*text-align: center;*/
+}
+
+.genre{
+
+    /*background: green;*/
+    display: block;
+    position: absolute;
+    margin: 160px 0 0 100px;
+    padding: 0;
+    /*left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 90%;*/
+
+}
+
+.genrenameButton{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 17px;
+}
+
+
+
+/*блок вывода книг*/
+
+.book_container{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.book_container form{
+    margin: 0;
+    padding: 0;
+}
+
+.book{
+
+    position: relative;
+    justify-content: center;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.img_cover{
+    margin: 0;
+    padding: 0;
+    background-size: contain;
+    background-position: center;
+    box-shadow: 4px 4px 7px;
+    /*width: 100%;
+    height: 100%;*/
+}
+
+.img_cover img{
+    width: 120px;
+    height: 200px;
+}
+
+
+/*block reader edit profile*/
+
+.reader_edit_profile_two_container{
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    text-align: center;
+    display: block;
+    /*position: absolute;*/
+    margin: 20px 0 0 0;
+    padding: 0;
+
+}
+
+.info_enter{
+    display: block;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0 0;
+    padding: 0;
+
+}
+
+.info_enter p{
+    margin: 0;
+    padding: 0;
+}
+
+
+.info_enter input{
+    box-shadow: /*3px 3px 6px grey*/ 4px 4px 7px;
+    font-family: 'Lobster', cursive;
+    font-size: 18px;
+    width: 90%;
+    padding: 10px 25px;
+    margin:  0;
+    display: inline-block;
+    /*border: 2px solid black;*/
+    border-top: 2px solid grey;
+    border-left: 2px solid gray;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    box-sizing: border-box;
+    border-radius:25px;
+}
+
+.reg_Button{
+
+    align-content: center;
+    margin: 50px 0 0 12px;
+    padding: 0;
+    /* bottom: 5%;
+     right: 2%;*/
+}
+
+.back_button {
+
+    margin: 20px 0 0 105px;
+    padding: 0;
+}
+
+.myButton{
+    font-size: 20px;
+}
+
+/*block show reader data*/
+
+.reader_profile_data{
+    margin: 50px 0 0 0;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+    font-size: 18px;
+}
+
+.reader_profile_data p{
+    margin: 140px 0 0 35px;
+    padding: 0;
+}
+
+.reader_profile_data h3{
+
+    margin: 120px 0 0 100px;
+    padding: 0;
+}
+
+/*block for create order*/
+
+.book_for_order h1{
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+.book_order_list{
+
+    /*display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;*/
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+
+}
+
+.book_cover_order{
+
+    align-content: center;
+    margin: 0 0 0 20px;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.book_cover_order img{
+    /*width: 150px;*/
+    height: 100%;
+    /*border-radius: 30px;*/
+    background-size: contain;
+}
+
+.order_button{
+    margin-bottom: 70px;
+    padding: 0;
+}
+
+.orderButton{
+    font-size: 20px;
+}
+
+/*block for book info*/
+
+.book_info_cover{
+
+    align-content: center;
+    margin: 83px 0 20px 0;
+    padding: 0;
+    width: 100%;
+    height: 90%;
+}
+.book_info_cover img{
+    width: 100%;
+    height: 90%;
+    border-radius: 30px;
+}
+
+
+
+img{
+    box-shadow: 4px 4px 7px;
+}
+
+.book_info_description{
+
+    /*position: absolute;
+    display: block;*/
+    font-family: 'Lobster', cursive;
+    font-size:18px;
+    /*height: 100%;
+    width: 62%;*/
+    margin: 70px 0 0 0;
+    padding: 0;
+    /*bottom:  0;
+    right: 0;*/
+
+}
+
+.book_info_text{
+    /*position: absolute;
+    display: block;*/
+    font-family: 'Lobster', cursive;
+    font-size:18px;
+    overflow: auto;
+
+    height: 77%;
+    width: 100%;
+    margin: 10px 0 20px 0 ;
+    padding: 0;
+    /*bottom: 5%;
+    right: 0;*/
+}
+
+.book_info_authorname, .book_info_authorname p{
+    display: inline-block;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+.button_menu{
+
+    margin: 80px 0 0 60px;
+    padding: 0;
+}
+
+/*block for author info*/
+
+.author_menu{
+    font-family: 'Lobster', cursive;
+    font-size:18px;
+    margin:20px 0 0 0;
+    padding: 0;
+}
+
+.in_root{
+    margin: 0 0 0 200px;
+    padding: 0;
+}
+
+.author_book_list{
+    margin: 40px 0 0 0;
+    padding: 0;
+}
+
+.author_info_block{
+    font-family: 'Lobster', cursive;
+    font-size:18px;
+    margin: 100px 0 0 100px;
+    padding: 0;
+}
+
+.author_info{
+    overflow: auto;
+    width: 93%;
+    height: 65%;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*block for pagination*/
+
+.page-link{
+    font-family: 'Lobster', cursive;
+    background-color: transparent;
+    font-size: 18px;
+    color: black;
+}
+

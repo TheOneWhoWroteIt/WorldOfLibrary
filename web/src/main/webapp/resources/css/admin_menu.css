@@ -1,0 +1,84 @@
+
+*, *:after, *:before{
+    box-sizing: border-box;
+}
+
+/*block for add employee*/
+
+.add_employee_container{
+
+    width: 100%;
+    height: 100%;
+    margin: 0 ;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 18px;
+}
+
+.info_by_employee{
+    /*background: red;*/
+    position: absolute;
+    display: grid;
+    margin: 0;
+    padding: 0;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    /*grid-gap: 2vw;*/
+    width: 90%;
+    height: 90%;
+    /*top: 8%;*/
+}
+
+
+
+.info_enter_admin{
+    display: block;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.info_enter_file_admin{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.file_1_admin input{
+
+    /*font-family: 'Lobster', cursive;*/
+    font-size: 16px;
+    width: 80%;
+    padding: 8px 10px;
+    margin:  0;
+    position: relative;
+    overflow: hidden;
+    /*width: 250px;*/
+    height: 40px;
+    /*background: #4169E1;*/
+    border-radius: 10px;
+    /*color: #fff;*/
+}
+
+.info_enter_admin input, select{
+    box-shadow: 4px 4px 7px;
+    /*font-family: 'Lobster', cursive;*/
+    font-size: 16px;
+    width: 90%;
+    padding: 8px 10px;
+    margin:  0;
+    display: inline-block;
+    /*border: 2px solid black;*/
+    border-top: 2px solid grey;
+    border-left: 2px solid gray;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    box-sizing: border-box;
+    border-radius:25px;
+}
+
+
+

@@ -10,5 +10,3 @@
 - Bootstrap;
 - Html/CSS;
 - Relational Database(Postgresql);
-	
-Пример визуального изображения проекта приведен на скиншотах ниже:
